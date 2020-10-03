@@ -1,1 +1,6 @@
-5 13
+5 16
+
+
+// Own Fixed
+
+scss/components/_story.scss  add (overflow: hidden;) in [story__shape] class
