@@ -1,10 +1,18 @@
-5 19 6:58 undo
+5 23
 
 
 // Own Fixed
 
 scss/components/_story.scss  add (overflow: hidden;) in [story__shape] class
+scss/layout/_navigation.scss  changing (background-size: 220%; to background-size: 230%;) in [navigation__link] class
 
 // CSS skill
 
 5 17 13:57  selector interpretation (like sibling) & form trip
+5 22 12:34  transform: origin (if (right) {set center at rotation at right side })
+
+// Confusing
+
+in sass/layout/_navigation.scss (line 105, hamburger menu)
+    in [navigation__icon] class, display: why we choose inline-block in the first place(text-align to center),not block. 
+    I want to know why...
